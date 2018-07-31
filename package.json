@@ -33,6 +33,8 @@
     "url": "git+https://github.com/JohnWebb4/setting-up-tests.git"
   },
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest"
   },
   "author": "JohnWebb4",
